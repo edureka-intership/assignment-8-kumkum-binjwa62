@@ -1,0 +1,309 @@
+.main {
+    background-color: #eec99b7e;
+}
+
+* {
+    font-family: poppins;
+    overflow-x: hidden;
+    /* box-sizing: border-box; */
+    margin: 0%;
+    padding: 0%;
+}
+
+.banner {
+    text-overflow: clip;
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/Images/background.png);
+    background-size: cover;
+}
+
+.banner img {
+
+    width: 100%;
+    height: 98%;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    margin-right: 15px;
+    color: white;
+    padding: 8px 12px;
+
+}
+
+.button1 {
+    border: 0;
+
+}
+
+.button2 {
+    border: 1px solid white;
+}
+
+.button-row {
+    position: absolute;
+    right: 2%;
+    top: 3%;
+}
+
+.e {
+    padding-top: 4px;
+    font-weight: bolder;
+    color: #EB2929;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    font-size: 70px;
+}
+
+.e-div {
+    position: absolute;
+    top: 14%;
+}
+
+.center {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.wd-100 {
+    width: 100%;
+}
+
+.poppinsb {
+    font-family: poppins;
+    font-weight: bold;
+}
+
+.size-36 {
+    color: white;
+    font-size: 36px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 38%;
+
+}
+
+.form-row {
+    position: absolute;
+    top: 52%;
+
+}
+
+.form-row .input {
+    font-size: 14px;
+    padding: 12px 16px;
+    margin-right: 10px;
+}
+
+.input-2 {
+    font-size: 14px;
+    padding: 12px 16px;
+    padding-right: 200px;
+}
+
+.display-flex1 {
+    gap: 50px;
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.ak-card {
+    height: 180px;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    /* box-shadow: 0px 10px 10px 10px black; */
+    box-shadow: 0px 5px 5px 5px #00000029;
+    margin-left: 5px;
+    color: #192F60;
+    margin-top: 15px;
+    font-family: poppins;
+}
+
+.Restaurant-list {
+    display: center;
+    color:black;
+    justify-content: center;
+    background-color: white;
+    cursor: pointer;
+    width: 300px;
+    border: 1px solid black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.uls {
+    display: center;
+     padding-left: 570px; 
+     justify-content: center;
+}
+
+.logo{
+    float:left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+   
+}
+
+.logo h1{
+    height: 50px ;
+    width:50px;
+    margin: 2px 2px 2px 18px;
+    background-color: #FBFBFB;
+    border-radius: 50%;
+
+}
+
+.head-top{
+    width:100%;
+    background-color: #EB2929;
+}
+
+.login-block{
+    float:right;
+}
+.login-block button{
+    margin: 5px 10px;
+
+}
+
+.login{
+    border:none;
+}
+.register{
+    border: 1px solid white;
+    width:10rem;
+}
+
+
+/* ****************************detail css is here******************** */
+
+.border-white {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.main-heading {
+    flex-wrap: wrap;
+    color: #192F60;
+    width: 500px;
+    height: 50px;
+    font-family: poppins, bold;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.card {
+    color: #8C96AB;
+    box-shadow: 0px 3px 6px #00000029;
+    width: 22%;
+    margin-left:20px;
+    /* height: 10%; */
+    padding: 10px;
+    font-size: larger;
+    background-color: #FFFFFF;
+}
+.card h2,h3,label{
+    color: #192F60;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #FBFBFB;
+    padding-bottom: 25px;
+}
+
+.center-body {
+    display: flex;
+}
+
+.pagination {
+    display: flex;
+    margin-left: 100px;
+    width: 90%;
+    height: 65px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.pagination ul {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination-btns {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border: 1px solid #8C96AB;
+    background-color: #FFFFFF;
+    list-style: none;
+}
+
+.pagination button{
+    color:black;
+    border: 1px solid #8C96AB;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 2px 6px;
+    height: 50px;
+    width: 50px;
+
+}
+.pagination button:hover{
+    color: white;
+    background-color: #8C96AB;
+}
+
+/* ******************** FILTER PAGE CSS HERE ************************* */
+
+
+.filter-card{
+    margin: 5% 10% 5% 5%;
+    /* width: 200px; */
+    /* height:300px; */
+    padding:10px;
+    /* box-sizing: border-box; */
+    background-color: white;
+    box-shadow: 0px 3px 10px  #525050;
+}
+.filtercard-upper{
+    display: flex;
+
+}
+
+.filter-card-left{background-color:#FBFBFB;}
+
+.filter-image img{
+    
+    height: 150px;
+    width:340px;
+    object-fit:contain;
+}
+
+.cafe-name{
+    text-shadow: 1px 2px 1px 1px 1px  red;
+    padding: 30px;
+}
